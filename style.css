@@ -1,0 +1,80 @@
+body{
+    background-color: beige;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+}
+.header-components{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header-components>li{
+    padding: 30px;
+    list-style: none;
+
+}
+
+h4{
+    font-weight: lighter;
+}
+
+#main{
+    margin: 35px;
+}
+
+#tasks{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    justify-content: center;
+    margin-top:30px;
+    
+
+
+}
+
+#tasks > div{
+    
+}
+
+.todo,.doing,.done{
+    width: 70px;
+    height: 25px;
+    
+    border-radius: 5%;
+}
+
+.todo{
+    background-color: red;
+    backdrop-filter: blur(20px);
+    opacity: 0.6;
+}
+.doing{
+    background-color: yellow;
+    backdrop-filter: blur(20px);
+    opacity: 0.6;
+}
+
+.done{
+    background-color: green;
+    backdrop-filter: blur(20px);
+    opacity: 0.6;
+    
+}
+
+.item{
+    background-color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+
